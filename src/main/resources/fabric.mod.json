@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "cataclysmic-expansion",
+	"version": "${version}",
+	"name": "Cataclysmic Expansion",
+	"description": "A mod that reworks many structures and adds many new biomes.",
+	"authors": [
+		"NinTenno!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/cataclysmic-expansion/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"nintenno.cataclysmic.CataclysmicExpansion"
+		],
+		"fabric-datagen": [
+			"nintenno.cataclysmic.CataclysmicExpansionDataGenerator"
+		]
+	},
+	"mixins": [
+		"cataclysmic-expansion.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.7",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
