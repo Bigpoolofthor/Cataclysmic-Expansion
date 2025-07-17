@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"nintenno.cataclysmic.CataclysmicExpansionDataGenerator"
+		],
+		"terrablender": [
+			"net.nintenno.cataclysmic.world.biome.ModTerrablenderAPI"
 		]
 	},
 	"mixins": [
